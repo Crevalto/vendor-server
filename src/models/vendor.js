@@ -70,7 +70,7 @@ const userSchema = new mongoose.Schema(
       maxlength: 15,
       unique: true,
     },
-    doc_verify: { data: Buffer, contentType: String, required: true },
+    doc_verify: { data: Buffer, contentType: String },
     tokens: [
       {
         token: {
