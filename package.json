@@ -7,7 +7,7 @@
     "start": "node src/index.js",
     "dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
     "test": "env-cmd -f ./config/test.env jest --watch",
-    "dummy": "nodemon --exec babel-node dummy.js"
+    "gstin": "env-cmd -f ./config/dev.env nodemon --exec babel-node playground/gstin_verification_api.js"
   },
   "author": "Crevalto team",
   "license": "ISC",
